@@ -1,9 +1,10 @@
 package generic
 
 import (
-	"github.com/octarinesec/secret-detector/pkg/detectors/tests"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/treeverse/secret-detector/pkg/detectors/tests"
 )
 
 var highEntropyTestCases = []tests.TestCase{

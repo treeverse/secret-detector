@@ -3,7 +3,7 @@ package azure
 import (
 	"testing"
 
-	"github.com/octarinesec/secret-detector/pkg/detectors/tests"
+	"github.com/treeverse/secret-detector/pkg/detectors/tests"
 )
 
 var testCases = []tests.TestCase{

@@ -1,10 +1,11 @@
 package generic
 
 import (
-	"github.com/octarinesec/secret-detector/pkg/detectors/helpers"
-	"github.com/octarinesec/secret-detector/pkg/secrets"
 	"net/url"
 	"strings"
+
+	"github.com/treeverse/secret-detector/pkg/detectors/helpers"
+	"github.com/treeverse/secret-detector/pkg/secrets"
 )
 
 const (

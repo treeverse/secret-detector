@@ -2,10 +2,11 @@ package jsontransformer
 
 import (
 	"encoding/json"
-	"github.com/octarinesec/secret-detector/pkg/dataformat"
 
-	"github.com/octarinesec/secret-detector/pkg/secrets"
-	"github.com/octarinesec/secret-detector/pkg/transformers/helpers"
+	"github.com/treeverse/secret-detector/pkg/dataformat"
+
+	"github.com/treeverse/secret-detector/pkg/secrets"
+	"github.com/treeverse/secret-detector/pkg/transformers/helpers"
 )
 
 const (

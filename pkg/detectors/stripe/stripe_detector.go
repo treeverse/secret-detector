@@ -1,8 +1,8 @@
 package stripe
 
 import (
-	"github.com/octarinesec/secret-detector/pkg/detectors/helpers"
-	"github.com/octarinesec/secret-detector/pkg/secrets"
+	"github.com/treeverse/secret-detector/pkg/detectors/helpers"
+	"github.com/treeverse/secret-detector/pkg/secrets"
 )
 
 const (

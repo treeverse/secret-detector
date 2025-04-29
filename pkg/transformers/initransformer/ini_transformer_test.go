@@ -1,8 +1,9 @@
 package initransformer
 
 import (
-	"github.com/octarinesec/secret-detector/pkg/transformers/tests"
 	"testing"
+
+	"github.com/treeverse/secret-detector/pkg/transformers/tests"
 )
 
 var testCases = []tests.TestCase{

@@ -2,12 +2,13 @@ package keyword
 
 import (
 	"fmt"
-	"github.com/octarinesec/secret-detector/pkg/detectors/generic"
 	"strconv"
 	"strings"
 
-	"github.com/octarinesec/secret-detector/pkg/detectors/helpers"
-	"github.com/octarinesec/secret-detector/pkg/secrets"
+	"github.com/treeverse/secret-detector/pkg/detectors/generic"
+
+	"github.com/treeverse/secret-detector/pkg/detectors/helpers"
+	"github.com/treeverse/secret-detector/pkg/secrets"
 )
 
 const (

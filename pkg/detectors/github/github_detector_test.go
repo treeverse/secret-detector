@@ -1,8 +1,9 @@
 package github
 
 import (
-	"github.com/octarinesec/secret-detector/pkg/detectors/tests"
 	"testing"
+
+	"github.com/treeverse/secret-detector/pkg/detectors/tests"
 )
 
 var testCases = []tests.TestCase{
