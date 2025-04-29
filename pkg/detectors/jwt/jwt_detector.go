@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	jwtparser "github.com/golang-jwt/jwt"
+	jwtparser "github.com/golang-jwt/jwt/v4"
 
 	"github.com/octarinesec/secret-detector/pkg/detectors/helpers"
 	"github.com/octarinesec/secret-detector/pkg/secrets"
