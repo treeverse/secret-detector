@@ -2,12 +2,13 @@ package command
 
 import (
 	"fmt"
-	"github.com/mattn/go-shellwords"
-	"github.com/octarinesec/secret-detector/pkg/dataformat"
-	"github.com/octarinesec/secret-detector/pkg/detectors/helpers"
-	"github.com/octarinesec/secret-detector/pkg/detectors/keyword"
-	"github.com/octarinesec/secret-detector/pkg/secrets"
 	"strings"
+
+	"github.com/mattn/go-shellwords"
+	"github.com/treeverse/secret-detector/pkg/dataformat"
+	"github.com/treeverse/secret-detector/pkg/detectors/helpers"
+	"github.com/treeverse/secret-detector/pkg/detectors/keyword"
+	"github.com/treeverse/secret-detector/pkg/secrets"
 )
 
 const (

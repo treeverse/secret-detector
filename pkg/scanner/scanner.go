@@ -9,8 +9,8 @@ import (
 	"github.com/hashicorp/go-multierror"
 
 	"github.com/inhies/go-bytesize"
-	"github.com/octarinesec/secret-detector/pkg/dataformat"
-	"github.com/octarinesec/secret-detector/pkg/secrets"
+	"github.com/treeverse/secret-detector/pkg/dataformat"
+	"github.com/treeverse/secret-detector/pkg/secrets"
 )
 
 const (

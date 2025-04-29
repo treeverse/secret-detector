@@ -1,11 +1,11 @@
 package yamltransformer
 
 import (
-	"github.com/octarinesec/secret-detector/pkg/dataformat"
+	"github.com/treeverse/secret-detector/pkg/dataformat"
 	"gopkg.in/yaml.v3"
 
-	"github.com/octarinesec/secret-detector/pkg/secrets"
-	"github.com/octarinesec/secret-detector/pkg/transformers/helpers"
+	"github.com/treeverse/secret-detector/pkg/secrets"
+	"github.com/treeverse/secret-detector/pkg/transformers/helpers"
 )
 
 const (

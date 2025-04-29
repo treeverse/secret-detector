@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/octarinesec/secret-detector/pkg/secrets"
+	"github.com/treeverse/secret-detector/pkg/secrets"
 )
 
 type TestCase struct {

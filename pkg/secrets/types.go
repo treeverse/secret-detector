@@ -1,8 +1,9 @@
 package secrets
 
 import (
-	"github.com/octarinesec/secret-detector/pkg/dataformat"
 	"io"
+
+	"github.com/treeverse/secret-detector/pkg/dataformat"
 )
 
 type Detector interface {

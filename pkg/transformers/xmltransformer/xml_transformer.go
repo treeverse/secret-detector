@@ -3,10 +3,11 @@ package xmltransformer
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/octarinesec/secret-detector/pkg/dataformat"
 	"strings"
 
-	"github.com/octarinesec/secret-detector/pkg/secrets"
+	"github.com/treeverse/secret-detector/pkg/dataformat"
+
+	"github.com/treeverse/secret-detector/pkg/secrets"
 )
 
 const (

@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"strings"
 
-	jwtparser "github.com/golang-jwt/jwt/v4"
+	jwtparser "github.com/golang-jwt/jwt/v5"
 
-	"github.com/octarinesec/secret-detector/pkg/detectors/helpers"
-	"github.com/octarinesec/secret-detector/pkg/secrets"
+	"github.com/treeverse/secret-detector/pkg/detectors/helpers"
+	"github.com/treeverse/secret-detector/pkg/secrets"
 )
 
 const (
